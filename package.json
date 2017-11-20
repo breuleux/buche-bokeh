@@ -1,0 +1,23 @@
+{
+  "name": "buche-bokeh",
+  "description": "Bokeh channel and element for Buche.",
+  "version": "0.0.0",
+  "format": "cjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breuleux/buche-bokeh"
+  },
+  "keywords": [
+    "buche",
+    "plot",
+    "bokeh"
+  ],
+  "author": "Olivier Breuleux",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "bokehjs": "0.12.6",
+    "tslib": "1.7.1"
+  },
+  "devDependencies": {}
+}
