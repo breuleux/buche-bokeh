@@ -30,6 +30,10 @@ After you create the main `BokehChannel` for plotting, each plot is a sub-channe
 ...
 ```
 
+Information about the various plot types, and what parameters they can take: https://bokeh.pydata.org/en/latest/docs/reference/plotting.html
+
+Note that for most parameters, if you want their value to depend on some field in the data, you can use: `"<parameter>": {"field": "<some_field>"}`. This is done by default for the `x` and `y` parameters of most plot types, mapping them to the field of the same name. This can be overriden, for example in the line to open `/plot/myplot3` above.
+
 Once these channels are created, add points using the `data` command:
 
 ```json
@@ -38,8 +42,6 @@ Once these channels are created, add points using the `data` command:
 {"command":"data","path":"/plot/myplot3","time":5,"candies":6}
 ...
 ```
-
-`BokehChannel` typically assumes that the data are `(x, y)` pairs, but it is possible to override that.
 
 ### Coupling with a `table` channel
 
