@@ -5,7 +5,7 @@ import time, math, json
 def buche(**args):
     print(json.dumps(args))
 
-buche(command='require', path='/', pluginName='bokeh')
+buche(command='require', path='/', pluginName='bokeh', channels='bokeh')
 buche(command='open', path='/plot', type='bokeh', title='Trigonometry')
 
 for i in range(0, 629):

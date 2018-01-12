@@ -5,7 +5,7 @@ import time, math, json
 def buche(**args):
     print(json.dumps(args))
 
-buche(command='require', path='/', pluginName='bokeh')
+buche(command='require', path='/', pluginName='bokeh', channels='bokeh')
 
 buche(command='open', path='/data', type='table',
       columns={'x': {'type': 'number'},

@@ -19,5 +19,14 @@
     "bokehjs": "0.12.6",
     "tslib": "1.7.1"
   },
+  "buche": {
+    "requireHowto": {
+      "command": "require",
+      "path": "/",
+      "pluginName": "bokeh",
+      "channels": {"bokeh": true},
+      "components": {}
+    }
+  },
   "devDependencies": {}
 }
