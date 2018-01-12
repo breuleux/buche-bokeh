@@ -1,7 +1,7 @@
 {
   "name": "buche-bokeh",
   "description": "Bokeh channel and element for Buche.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "format": "cjs",
   "repository": {
     "type": "git",
@@ -24,7 +24,9 @@
       "command": "require",
       "path": "/",
       "pluginName": "bokeh",
-      "channels": {"bokeh": true},
+      "channels": {
+        "bokeh": true
+      },
       "components": {}
     }
   },
